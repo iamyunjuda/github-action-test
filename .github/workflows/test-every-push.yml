@@ -17,7 +17,7 @@ jobs:
         # job의 이름을 정해줍니다.
         name: Test lint, tsc, build
         # 저는 해당 job을 리눅스 환경에서 사용할 거예요. 다른 플랫폼이 올 수도 있겠죠?
-        runs-on: windows-latest
+        runs-on: ubuntu-latest
 
         # job 안에는 step이라는 키워드가 옵니다. step은 shell script를 실행할 수도 있고,
         # 누군가 만들어 놓은 Action을 사용할 수도 있어요.
